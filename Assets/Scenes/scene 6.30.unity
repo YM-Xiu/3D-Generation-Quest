@@ -32433,7 +32433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3436842200713128739, guid: 9d072985cf7b6430bab6362c7c690abf, type: 3}
       propertyPath: m_Name
-      value: BB_C
+      value: GenerationCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

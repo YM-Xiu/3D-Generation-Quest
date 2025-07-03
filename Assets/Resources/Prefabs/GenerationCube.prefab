@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 8103645168156431791}
   - component: {fileID: 7032376729218194769}
   m_Layer: 0
-  m_Name: BB_C
+  m_Name: GenerationCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

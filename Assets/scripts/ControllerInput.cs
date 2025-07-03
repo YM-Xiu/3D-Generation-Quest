@@ -6,11 +6,11 @@ public class ControllerInput : MonoBehaviour
     private InputActions input;
 
     [Tooltip("Distance in front of the camera to spawn the prefab.")]
-    public float spawnDistance = 1.0f;
+    public float spawnDistance = 0.3f;
 
     // Path must be relative to Resources folder and *case-sensitive*
-    [Tooltip("Path to the BB_C prefab under Resources (e.g., 'PREFABS/BB_C')")]
-    public string bbCPrefabPath = "PREFABS/BB_C";
+    [Tooltip("Path to the spawn prefab under Resources (e.g., 'PREFABS/BB_C')")]
+    public string bbCPrefabPath = "PREFABS/GenerationCube";
     private GameObject lastCubeInstance;
 
     void Awake()
