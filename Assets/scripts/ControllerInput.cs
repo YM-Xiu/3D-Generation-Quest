@@ -68,7 +68,7 @@ public class ControllerInput : MonoBehaviour
         GameObject bbCPrefab = Resources.Load<GameObject>(bbCPrefabPath);
         if (bbCPrefab == null)
         {
-            Debug.LogError($"[ControllerInput] Could not load BB_C prefab at Resources/{bbCPrefabPath}");
+            Debug.LogError($"[ControllerInput] Could not load gen cube prefab at Resources/{bbCPrefabPath}");
             return;
         }
 
@@ -77,6 +77,6 @@ public class ControllerInput : MonoBehaviour
 
         lastCubeInstance = instance;
 
-        Debug.Log("[ControllerInput] BB_C prefab spawned.");
+        Debug.Log("[ControllerInput] generation cube prefab spawned.");
     }
 }
