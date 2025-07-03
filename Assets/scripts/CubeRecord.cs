@@ -56,7 +56,7 @@ public class CubeRecord : MonoBehaviour
                 else
                 {
                     PlayAudioHint(startClip);
-                    tmp.text = "Recording...";
+                    tmp.text = "Recording... (Press Y to stop)";
                 }
             }
             recorder.ToggleRecording();

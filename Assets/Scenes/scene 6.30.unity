@@ -19451,7 +19451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnDistance: 0.4
-  bbCPrefabPath: Prefabs/BB_C
+  bbCPrefabPath: Prefabs/GenerationCube
 --- !u!114 &1324459451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32666,11 +32666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 79923284555125390, guid: 9d072985cf7b6430bab6362c7c690abf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 79923284555125390, guid: 9d072985cf7b6430bab6362c7c690abf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.309
+      value: 0.809
       objectReference: {fileID: 0}
     - target: {fileID: 79923284555125390, guid: 9d072985cf7b6430bab6362c7c690abf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -32744,7 +32744,9 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7384259866633706146, guid: 9d072985cf7b6430bab6362c7c690abf, type: 3}
+    - {fileID: 5767929596184754174, guid: 9d072985cf7b6430bab6362c7c690abf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

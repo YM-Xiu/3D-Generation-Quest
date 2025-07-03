@@ -1,0 +1,5 @@
+/Users/shunav/Documents/GitHub/3D-Generation-Quest/.utmp/RelWithDebInfo/1f103p26/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/shunav/Documents/GitHub/3D-Generation-Quest/.utmp/RelWithDebInfo/1f103p26/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/shunav/Documents/GitHub/3D-Generation-Quest/.utmp/RelWithDebInfo/1f103p26/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/shunav/Documents/GitHub/3D-Generation-Quest/.utmp/RelWithDebInfo/1f103p26/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/shunav/Documents/GitHub/3D-Generation-Quest/.utmp/RelWithDebInfo/1f103p26/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
