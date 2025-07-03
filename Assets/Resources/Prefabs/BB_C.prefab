@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbbdc764b41e4f798f46da0d3ea94e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ServerUrl: http://192.168.1.241:5000/generate-3d
+  ServerUrl: http://192.168.1.189:5017/generate-3d
 --- !u!114 &8103645168156431791
 MonoBehaviour:
   m_ObjectHideFlags: 0
