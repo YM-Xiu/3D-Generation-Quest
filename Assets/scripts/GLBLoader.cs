@@ -27,6 +27,17 @@ public class GLBLoader : MonoBehaviour
         meshRenderer.enabled = false;
         // Instantiate the GLB under the container
         gltf.InstantiateMainScene(glbObject.transform);
+        Renderer[] renderers = glbObject.GetComponentsInChildren<Renderer>();
+foreach (Renderer renderer in renderers)
+{
+    // For dynamic GI
+    renderer.lightProbeUsage = UnityEngine.Rendering.LightProbeUsage.BlendProbes;
+
+    // Optional: if you have reflection probes
+    renderer.reflectionProbeUsage = UnityEngine.Rendering.ReflectionProbeUsage.BlendProbes;
+}
+
+
 
     }
 }
