@@ -1,0 +1,2 @@
+C:\AR research\text to 3D\Unity Project\ar-app\3D generation Quest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\AR research\text to 3D\Unity Project\ar-app\3D generation Quest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

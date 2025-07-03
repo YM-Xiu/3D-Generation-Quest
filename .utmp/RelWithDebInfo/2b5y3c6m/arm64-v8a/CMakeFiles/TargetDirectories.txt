@@ -1,0 +1,5 @@
+C:/AR research/text to 3D/Unity Project/ar-app/3D generation Quest/.utmp/RelWithDebInfo/2b5y3c6m/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/AR research/text to 3D/Unity Project/ar-app/3D generation Quest/.utmp/RelWithDebInfo/2b5y3c6m/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/AR research/text to 3D/Unity Project/ar-app/3D generation Quest/.utmp/RelWithDebInfo/2b5y3c6m/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/AR research/text to 3D/Unity Project/ar-app/3D generation Quest/.utmp/RelWithDebInfo/2b5y3c6m/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/AR research/text to 3D/Unity Project/ar-app/3D generation Quest/.utmp/RelWithDebInfo/2b5y3c6m/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
