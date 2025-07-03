@@ -16,6 +16,18 @@ public class GLBUploader : MonoBehaviour
         using UnityWebRequest www = UnityWebRequest.Post(ServerUrl, form);
         yield return www.SendWebRequest();
 
+        if (audioBytes.Length > 0 || audioBytes != null)
+        {
+            Debug.Log("Audio file size: " + audioBytes.Length + " bytes");
+        }
+        else
+        {
+            Debug.LogError("Audio file is empty or null.");
+        }
+
+        Debug.Log("Sending request to: " + ServerUrl);
+
+
         if (www.result == UnityWebRequest.Result.Success)
         {
             string glbPath = Path.Combine(Application.persistentDataPath, "output.glb");
@@ -27,6 +39,10 @@ public class GLBUploader : MonoBehaviour
         else
         {
             Debug.LogError("Upload failed: " + www.error);
+            Debug.LogError("Status Code: " + www.responseCode);
+            Debug.LogError("Error: " + www.error);
+            Debug.LogError("Response: " + www.downloadHandler.text);
+
         }
     }
 }
