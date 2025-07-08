@@ -30,7 +30,7 @@ public class AudioRecorder : MonoBehaviour
     private IEnumerator StartRecordingRoutine()
     {
         isRecording = true;
-        recordedClip = Microphone.Start(null, false, 10, 44100); // Max 10 seconds duration !!!
+        recordedClip = Microphone.Start(null, false, 30, 44100); // Max 10 seconds duration !!!
         yield return null; // optional wait
     }
 
