@@ -49,7 +49,7 @@ MonoBehaviour:
   m_DepthPrimingMode: 1
   m_CopyDepthMode: 0
   m_DepthAttachmentFormat: 0
-  m_DepthTextureFormat: 90
+  m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
 --- !u!114 &6378320747397945018
