@@ -28,7 +28,7 @@ public class GLBLoader : MonoBehaviour
         // Instantiate the GLB under the container
         gltf.InstantiateMainScene(glbObject.transform);
         Renderer[] renderers = glbObject.GetComponentsInChildren<Renderer>();
-        TimerTracker.StopAndLogTimer();
+        TimerTracker.StopAndLogTimer(this);
         
 foreach (Renderer renderer in renderers)
         {
