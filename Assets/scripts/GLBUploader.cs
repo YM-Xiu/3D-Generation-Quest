@@ -9,6 +9,7 @@ public class GLBUploader : MonoBehaviour
 
     public IEnumerator SendAudioToServer(string audioPath)
     {
+        TimerTracker.StartTimer();
         byte[] audioBytes = File.ReadAllBytes(audioPath);
         WWWForm form = new WWWForm();
         form.AddBinaryData("audio", audioBytes, "recorded.wav", "audio/wav");

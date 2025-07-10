@@ -1,0 +1,2 @@
+C:\Users\joshu\Workspace\3D-Generation-Quest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\joshu\Workspace\3D-Generation-Quest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
